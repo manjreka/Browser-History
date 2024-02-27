@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 10px;
+}
+.text-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  margin: 25px;
+  width: 35px;
+  height: 35px;
+}
+.heading {
+  font-size: 20px;
+  margin: 10px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
